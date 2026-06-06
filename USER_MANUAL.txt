@@ -1,0 +1,126 @@
+HOUR RECTIFICATION STANDALONE SKILL — USER MANUAL
+==================================================
+
+What this file does
+--------------------
+This file gives Claude the instructions it needs to help you figure out a person's
+unknown birth hour (Hour Pillar) in BaZi (Chinese astrology). When a client doesn't
+know their birth time, Claude will narrow down all 12 possible Hour Pillars to a
+shortlist of 1-3 likely candidates — using known life facts as evidence.
+
+No installation required. Just attach this file to any Claude chat and use the
+prompt below to get started.
+
+
+How to use it
+-------------
+1. Download this .md file from GitHub
+2. Open Claude (claude.ai or any Claude app — no paid plan required)
+3. Start a new chat and attach this file
+4. Send the following prompt:
+
+   "Follow the skill instructions in this file and help me rectify the
+   birth hour for [name], DOB [date of birth], [Male/Female]."
+
+That's it. Claude will read the file and guide you through the full process.
+
+
+When to use it
+--------------
+- A client's birth time is unknown or unconfirmed
+- You want to figure out which hour best fits a person's known life story
+- You want to complete a BaZi chart with an unknown 4th pillar
+
+
+What you need before starting
+------------------------------
+1. The person's date of birth (year, month, day) and their sex
+2. Known life facts about the person — see below for what's useful
+
+No other skills or prior chart preparation required. Claude will calculate
+and calibrate the 3-pillar chart before beginning the rectification process.
+
+
+How the process works
+----------------------
+The skill works through a structured elimination process across 6 steps:
+
+STEP 0 — 3-pillar calibration
+Claude first calculates the Year, Month, and Day Pillars from the date of birth,
+assesses the Day Master's strength, and identifies the useful/harmful elements.
+This takes about a minute and sets up everything needed for rectification.
+
+STEP 1 — Generate all 12 Hour Pillars
+Claude calculates all 12 possible Hour Pillars for the person's Day Master
+using the Five Rat Escaping formula. Each hour has a unique stem, branch,
+and set of hidden stems.
+
+STEP 2 — Build a candidate table
+Claude maps out how each of the 12 hours interacts with the existing 3-pillar
+chart (clashes, harmonies, combinations, punishments).
+
+STEP 3 — Quick eliminations
+Some hours can be ruled out immediately based on chart structure alone —
+for example, if an hour would catastrophically destroy the person's Day Master
+or double an already-overwhelming harmful element.
+
+STEP 4 — Cross-reference known life facts
+This is the core of the process. Claude tests each remaining candidate against
+known facts about the person's life, including:
+
+  - Siblings: how many, and their genders
+  - Children: how many, and any pregnancy complications
+  - Parents: death years, relationship with mother/father
+  - Spouse: was the partner dominant and forceful, or stable and conventional?
+  - Health: known illnesses and which part of the body they affect
+  - Career: what field they work in
+  - Personality: any striking traits not yet explained by the 3-pillar chart
+  - Life arc: whether their best and worst decades match what the chart predicts
+    (this is often the strongest filter before using the ZWDS app)
+
+STEP 5 — Interactive questioning
+Claude asks targeted questions in order of elimination power — starting with
+questions that will rule out the most candidates at once (e.g. rough time of
+day, sibling count). You don't need to know all the facts upfront; Claude will
+guide you through what to ask the client.
+
+STEP 6 — Shortlist and recommendation
+Claude narrows the candidates down to 1-3 options, explains the reasoning for
+each, and recommends running the remaining candidates through the Destiny Reading
+Calculator app to compare ZWDS palace configurations as a final tiebreaker.
+
+
+What the final output looks like
+----------------------------------
+At the end, Claude produces a clear summary such as:
+
+  Remaining candidates: [丑时, 酉时]
+  Most likely: 酉时 — because [reason A, reason B]
+  Runner-up: 丑时 — because [reason C], but [concern D]
+  Eliminated: [all other hours with brief reasons]
+  Recommended next step: Run both hours in the Destiny Reading app and
+  compare the 命宫, 夫妻宫, and 疾厄宫 palaces
+
+The skill pairs with the Destiny Reading Calculator app (by the same author)
+which generates full ZWDS charts for comparison.
+
+
+Tips for best results
+----------------------
+- The more life facts you can provide, the more accurate the elimination
+- Major life events with known years are especially useful (e.g. a parent
+  dying in a specific year, or a major career shift)
+- Public or historical figures with documented life timelines are ideal
+  for learning the process, as facts can be verified independently
+- If the client knows even a rough window ("definitely born at night" or
+  "early morning"), this immediately eliminates half the candidates
+
+
+Works best alongside
+---------------------
+- Destiny Reading Calculator app (for ZWDS tiebreaker comparison)
+
+
+Author
+------
+Skill created by Andy Low | https://andyson08.substack.com/
